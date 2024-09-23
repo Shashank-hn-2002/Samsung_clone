@@ -1,0 +1,547 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin-top: 8px;
+    font-size: 12.4444px;
+    font-weight: 600;
+}
+.shop:hover{
+    background-color: black;
+    width: 42.3px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.ai:hover{
+    background-color: black;
+    width: 26.03px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.mobile:hover{
+    background-color: black;
+    width: 52.48px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.tvav:hover{
+    background-color: black;
+    width: 56.22px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.ha:hover{
+    background-color: black;
+    width: 111.16px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.comp:hover{
+    background-color: black;
+    width: 75.78px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.dis:hover{
+    background-color: black;
+    width: 61.33px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.acce:hover{
+    background-color: black;
+    width: 79.52px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.st:hover{
+    background-color: black;
+    width: 85.28px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.ac:hover{
+    background-color: black;
+    width: 103.89px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.supp:hover{
+    background-color: black;
+    width: 59.13px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.fb:hover{
+    background-color: black;
+    width: 83.63px;
+    height: 28.61px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.brand{
+    margin-top: 16px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7.11px;
+    width: 10%;
+    background-color: white;
+}
+.size-6{
+    width: 21.3px;
+}
+.nav-detail{
+    width: 21.3px;
+}
+@media (max-width: 1200px){
+    .nav-bar{
+        display: none;
+    }
+}
+@media (min-width: 1200px){
+    .nav-detail{
+        display: none;
+    }
+}
+/* first page */
+.bg-cl1{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    margin-top: 16px;
+    width: 1288px;
+    height: 572.44px;
+}
+.bg-img1{
+    position: absolute;
+    top: 200px;
+    left: 48%;
+}
+.font1{
+    position: absolute;
+    top: 165px;
+    left: 100px;
+    font-family: 'Lato',sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.p1{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.p11{
+    position: absolute;
+    top: 315px;
+    left: 100px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: small;
+    opacity: 0.8;
+}
+.learn{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.buy{
+    position: absolute;
+    top: 385px;
+    left: 197px;
+    background-color: black;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
+.buy:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.now{
+    position: absolute;
+    top: 378px;
+    left: 215px;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.l-arr{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+}
+.r-arr{
+    position: absolute;
+    top: 290px;
+    left: 1250px;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    position: absolute;
+    top: 550px;
+    left: 360px;
+}
+.play{
+    position: absolute;
+    top: 550px;
+    left: 1030px;
+}
+.varient{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    position: absolute;
+    top: 485px;
+    left: 350px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.l11:hover{
+    cursor: pointer;
+}
+.l12:hover{
+    cursor: pointer;
+}
+.l13:hover{
+    cursor: pointer;
+}
+.l14:hover{
+    cursor: pointer;
+}
+
+/* second page */
+.font2{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-bar2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 16.1px;
+    font-weight: 600;
+    padding: 3.5px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.new:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.m:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.new:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.tv:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.app:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.es:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.sl:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.bg-cl2{
+    background-color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 650px;
+    height: 450px;
+}
+.tab{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 100px;
+    top: 820px;
+}
+.phone{
+    position: absolute;
+    left: 440px;
+    top: 815px;
+}
+.tv{
+    position: absolute;
+    left: 100px;
+    top: 1050px;
+}
+.wm{
+    position: absolute;
+    left: 440px;
+    top: 1030px;
+}
+.phone{
+    transition: 0.5s;
+}
+.phone:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tab{
+    transition: 0.5s;
+}
+.tab:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.tv{
+    transition: 0.5s;
+}
+.tv:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.wm{
+    transition: 0.5s;
+}
+.wm:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.sale{
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 780px;
+    left: 20px;
+}
+.bg-cl22{
+    background-color: whitesmoke;
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    top: 768px;
+    left: 680px;
+    border-radius: 20px;
+}
+.tab2{
+    position: absolute;
+    top: 805px;
+    left: 720px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+.tab2{
+    transition: 0.5s;
+}
+.tab2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bg-cl222{
+    background-color: whitesmoke;
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    top: 768px;
+    left: 1000px;
+    border-radius: 20px;
+}
+.fridge{
+    position: absolute;
+    top: 780px;
+    left: 1040px;
+    text-align: center;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+.fridge{
+    transition: 0.5s;
+}
+.fridge:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bg-cl2222{
+        background-color: whitesmoke;
+        width: 295px;
+        height: 295px;
+        position: absolute;
+        top: 1085px;
+        left: 680px;
+        border-radius: 20px;
+}
+.g24{
+    position: absolute;
+    top: 1110px;
+    left: 750px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+.g24{
+    transition: 0.5s;
+}
+.g24:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bg-cl22222{
+    background-color: whitesmoke;
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    top: 1085px;
+    left: 1000px;
+    border-radius: 20px;
+}
+.tv2{
+    position: absolute;
+    top: 1108px;
+    left: 1040px;
+    text-align: center;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+.tv2{
+    transition: 0.5s;
+}
+.tv2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bg-emp{
+    background-color: whitesmoke;
+    width: 650px;
+    height: 155px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 1225px;
+}
+.text{
+    position: absolute;
+    top: 1220px;
+    left: 240px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.small{
+    position: absolute;
+    top: 1340px;
+    left: 250px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+}
+
+
