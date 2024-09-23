@@ -1,3 +1,7 @@
+body{
+    top: 0px;
+    left: 0px;
+}
 .container{
     display: flex;
     justify-content: space-around;
@@ -412,7 +416,7 @@
     top: 780px;
     left: 20px;
 }
-.bg-cl22{
+.bg-cltab{
     background-color: whitesmoke;
     width: 295px;
     height: 295px;
@@ -438,7 +442,7 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
-.bg-cl222{
+.bg-clfridge{
     background-color: whitesmoke;
     width: 295px;
     height: 295px;
@@ -465,7 +469,7 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
-.bg-cl2222{
+.bg-clg24{
         background-color: whitesmoke;
         width: 295px;
         height: 295px;
@@ -491,7 +495,7 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
-.bg-cl22222{
+.bg-cltv2{
     background-color: whitesmoke;
     width: 295px;
     height: 295px;
