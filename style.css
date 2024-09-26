@@ -1,7 +1,3 @@
-body{
-    top: 0px;
-    left: 0px;
-}
 .container{
     display: flex;
     justify-content: space-around;
@@ -15,6 +11,7 @@ body{
     margin-top: 8px;
     font-size: 12.4444px;
     font-weight: 600;
+    margin-left: 25px;
 }
 .shop:hover{
     background-color: black;
@@ -150,6 +147,7 @@ body{
 }
 .brand{
     margin-top: 16px;
+    margin-left: 25px;
 }
 .nav-logo{
     display: flex;
@@ -158,6 +156,7 @@ body{
     padding: 7.11px;
     width: 10%;
     background-color: white;
+    margin-left: 25px;
 }
 .size-6{
     width: 21.3px;
@@ -165,12 +164,16 @@ body{
 .nav-detail{
     width: 21.3px;
 }
-@media (max-width: 1200px){
+@media (max-width: 1278px){
     .nav-bar{
         display: none;
     }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
 }
-@media (min-width: 1200px){
+@media (min-width: 1278px){
     .nav-detail{
         display: none;
     }
@@ -178,15 +181,17 @@ body{
 /* first page */
 .bg-cl1{
     background-color: whitesmoke;
-    opacity: 0.5;
+    opacity: 0.8;
     margin-top: 16px;
-    width: 1288px;
-    height: 572.44px;
+    width: 1234px;
+    height: 548px;
+    margin-left: 25px;
 }
 .bg-img1{
     position: absolute;
     top: 200px;
-    left: 48%;
+    left: 40%;
+    margin-left: 25px;
 }
 .font1{
     position: absolute;
@@ -195,6 +200,7 @@ body{
     font-family: 'Lato',sans-serif;
     font-size: xx-large;
     font-weight: bolder;
+    margin-left: 25px;
 }
 .p1{
     position: absolute;
@@ -204,6 +210,7 @@ body{
     font-size: medium;
     font-weight: 400;
     opacity: 0.9;
+    margin-left: 25px;
 }
 .p11{
     position: absolute;
@@ -212,6 +219,7 @@ body{
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: small;
     opacity: 0.8;
+    margin-left: 25px;
 }
 .learn{
     position: absolute;
@@ -221,6 +229,7 @@ body{
     font-size: small;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
 }
 .learn:hover{
     cursor: pointer;
@@ -234,6 +243,7 @@ body{
     border-radius: 15px;
     width: 90px;
     height: 30px;
+    margin-left: 25px;
 }
 .buy:hover{
     opacity: 0.5;
@@ -247,16 +257,19 @@ body{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin-left: 25px;
 }
 .l-arr{
     position: absolute;
     top: 290px;
     left: 20px;
+    margin-left: 25px;
 }
 .r-arr{
     position: absolute;
     top: 290px;
-    left: 1250px;
+    left: 1210px;
+    margin-left: 25px;
 }
 .line{
     display: flex;
@@ -265,11 +278,13 @@ body{
     position: absolute;
     top: 550px;
     left: 360px;
+    margin-left: 25px;
 }
 .play{
     position: absolute;
     top: 550px;
     left: 1030px;
+    margin-left: 25px;
 }
 .varient{
     display: flex;
@@ -281,6 +296,7 @@ body{
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: small;
     font-weight: bold;
+    margin-left: 25px;
 }
 .l11:hover{
     cursor: pointer;
@@ -347,29 +363,34 @@ body{
     background-color: whitesmoke;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 650px;
-    height: 450px;
+    width: 585px;
+    height: 393px;
+    margin-left: 25px;
 }
 .tab{
     background-color: whitesmoke;
     position: absolute;
-    left: 100px;
-    top: 820px;
+    left: 70px;
+    top: 780px;
+    margin-left: 25px;
 }
 .phone{
     position: absolute;
-    left: 440px;
-    top: 815px;
+    left: 390px;
+    top: 775px;
+    margin-left: 25px;
 }
 .tv{
     position: absolute;
-    left: 100px;
-    top: 1050px;
+    left: 70px;
+    top: 985px;
+    margin-left: 25px;
 }
 .wm{
     position: absolute;
-    left: 440px;
-    top: 1030px;
+    left: 390px;
+    top: 970px;
+    margin-left: 25px;
 }
 .phone{
     transition: 0.5s;
@@ -413,26 +434,29 @@ body{
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    top: 780px;
+    top: 750px;
     left: 20px;
+    margin-left: 25px;
 }
 .bg-cltab{
     background-color: whitesmoke;
-    width: 295px;
-    height: 295px;
+    width: 292px;
+    height: 282px;
     position: absolute;
-    top: 768px;
-    left: 680px;
+    top: 742px;
+    left: 620px;
     border-radius: 20px;
+    margin-left: 25px;
 }
 .tab2{
     position: absolute;
-    top: 805px;
-    left: 720px;
+    top: 775px;
+    left: 653px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
     font-weight: bold;
+    margin-left: 25px;
 }
 .tab2{
     transition: 0.5s;
@@ -444,22 +468,24 @@ body{
 }
 .bg-clfridge{
     background-color: whitesmoke;
-    width: 295px;
-    height: 295px;
+    width: 292px;
+    height: 282px;
     position: absolute;
-    top: 768px;
-    left: 1000px;
+    top: 742px;
+    left: 940px;
     border-radius: 20px;
+    margin-left: 25px;
 }
 .fridge{
     position: absolute;
-    top: 780px;
-    left: 1040px;
+    top: 753px;
+    left: 968px;
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
     font-weight: bold;
+    margin-left: 25px;
 }
 .fridge{
     transition: 0.5s;
@@ -471,21 +497,23 @@ body{
 }
 .bg-clg24{
         background-color: whitesmoke;
-        width: 295px;
-        height: 295px;
+        width: 292px;
+        height: 282px;
         position: absolute;
-        top: 1085px;
-        left: 680px;
+        top: 1050px;
+        left: 620px;
         border-radius: 20px;
+        margin-left: 25px;
 }
 .g24{
     position: absolute;
-    top: 1110px;
-    left: 750px;
+    top: 1070px;
+    left: 675px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
     font-weight: bold;
+    margin-left: 25px;
 }
 .g24{
     transition: 0.5s;
@@ -497,22 +525,24 @@ body{
 }
 .bg-cltv2{
     background-color: whitesmoke;
-    width: 295px;
-    height: 295px;
+    width: 292px;
+    height: 282px;
     position: absolute;
-    top: 1085px;
-    left: 1000px;
+    top: 1050px;
+    left: 940px;
     border-radius: 20px;
+    margin-left: 25px;
 }
 .tv2{
     position: absolute;
-    top: 1108px;
-    left: 1040px;
+    top: 1080px;
+    left: 970px;
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
     font-weight: bold;
+    margin-left: 25px;
 }
 .tv2{
     transition: 0.5s;
@@ -524,28 +554,522 @@ body{
 }
 .bg-emp{
     background-color: whitesmoke;
-    width: 650px;
-    height: 155px;
+    width: 585px;
+    height: 175px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: absolute;
-    top: 1225px;
+    top: 1158px;
+    margin-left: 25px;
 }
 .text{
     position: absolute;
-    top: 1220px;
+    top: 1160px;
     left: 240px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 20.56px;
     font-weight: bold;
+    margin-left: 25px;
 }
 .small{
     position: absolute;
-    top: 1340px;
-    left: 250px;
+    top: 1260px;
+    left: 235px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: 300;
+    margin-left: 25px;
+}
+
+/* third page */
+
+.bg-cl3{
+    background-color: whitesmoke;
+    width: 1234px;
+    height: 694.13px;
+    opacity: 0.8;
+    position: absolute;
+    top: 1370px;
+    margin-left: 25px;
+}
+.font3{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 32.56px;
+    font-weight: 600;
+    position: absolute;
+    top: 1380px;
+    left: 580px;
+    margin-left: 25px;
+}
+.nav-bar3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.42px;
+    font-weight: 600;
+    padding: 3.4px;
+    position: absolute;
+    top: 1480px;
+    left: 250px;
+    margin-left: 25px;
+}
+.nav31:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.nav32:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.nav33:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.nav34:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.nav35:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.font33{
+    position: absolute;
+    top: 1850px;
+    left: 500px;
+    font-size: 41.3px;
+    font-weight: bold;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+}
+.brief3{
+    position: absolute;
+    top: 1930px;
+    left: 480px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.42px;
+    margin-left: 25px;
+}
+.brief31{
+    position: absolute;
+    top: 1948px;
+    left: 520px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.42px;
+    margin-left: 25px;
+}
+.bg-img3{
+    position: absolute;
+    top: 1530px;
+    left: 400px;
+}
+.learn1{
+    position: absolute;
+    top: 2000px;
+    left: 550px;
+    color: black;
+    font-size: 8.5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+.buy1{
+    position: absolute;
+    top: 2000px;
+    left: 615px;
+    background-color: black;
+    border-radius: 15px;
+    width: 70px;
+    height: 24px;
+    margin-left: 25px;
+}
+.buy1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.now1{
+    position: absolute;
+    top: 2000px;
+    left: 632px;
+    font-size: 8.1px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 25px;
+}
+
+/* fourth page */
+
+.bg-img4{
+    position: relative;
+    top: 931px;
+    margin-left: 25px;
+}
+.font4{
+    position: absolute;
+    top: 2070px;
+    left: 600px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 32.22px;
+    font-weight: bold;
+}
+.nav-bar4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44%;
+    position: absolute;
+    top: 2158px;
+    left: 350px;
+    padding: 3.9px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 15.26px;
+    font-weight: 600;
+}
+.nav41:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 110px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav42:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 65px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav43:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 85px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav44:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav45:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 130px;
+    text-align: center;
+    opacity: 0.5;
+}
+.font42{
+    position: absolute;
+    top: 2600px;
+    left: 40%;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 40.7px;
+    margin: 0px 0px 6.78333px;
+    left: 260px;
+    font-weight: 600;
+}
+.brief4{
+    position: absolute;
+    top: 2650px;
+    left: 35%;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 15.265px;
+}
+.buy4{
+    background-color: black;
+    width: 85.3px;
+    height: 33.56px;
+    border-radius: 16px;
+    position: absolute;
+    top: 2700px;
+    left: 47%;
+}
+.buy4:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.buynow4{
+    position: absolute;
+    top: 2690px;
+    left: 620px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.8px;
+    font-weight: bold;
+    color: white;
+}
+
+/* fifth page */
+
+.bg-img5{
+    position: relative;
+    top: 927px;
+    margin-left: 25px;
+}
+.font5{
+    position: absolute;
+    top: 2750px;
+    left: 40%;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 32.22px;
+    font-weight: 600;
+}
+.nav-bar5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 63%;
+    top: 2850px;
+    left: 20%;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.2px;
+    font-weight: 700;
+    padding: 3.3px;
+}
+.nav51:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 155px;
+    height: 29.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav52:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 190px;
+    height: 29.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav53:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 170px;
+    height: 29.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav54:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 160px;
+    height: 29.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+.nav55:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 93px;
+    height: 29.13px;
+    text-align: center;
+    opacity: 0.5;
+}
+.font51{
+    position: absolute;
+    font-size: 40.7px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    top: 3250px;
+    left: 450px;
+}
+.brief5{
+    position: absolute;
+    top: 3340px;
+    left: 510px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.26px;
+    width: 1180px;
+}
+.buy5{
+    background-color: black;
+    width: 85.3px;
+    height: 33.56px;
+    border-radius: 16px;
+    position: absolute;
+    top: 3385px;
+    left: 47%;
+}
+.buy5:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.buynow5{
+    position: absolute;
+    top: 3392px;
+    left: 620px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.8px;
+    font-weight: bold;
+    color: white;
+}
+
+/* sixth page */
+
+.font6{
+    position: absolute;
+    top: 3410px;
+    left: 32%;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32.22px;
+    padding: 40.7px;
+}
+.bg-cl61{
+    background-color: whitesmoke;
+    width: 223.84px;
+    height: 509.22px;
+    border-radius: 20px;
+    position: relative;
+    top: 1060px;
+    margin-left: 25px;
+}
+.bg-cl62{
+    background-color: whitesmoke;
+    width: 223.84px;
+    height: 509.22px;
+    border-radius: 20px;
+    position: relative;
+    top: 1060px;
+}
+.bg-cl63{
+    background-color: whitesmoke;
+    width: 223.84px;
+    height: 509.22px;
+    border-radius: 20px;
+    position: relative;
+    top: 1060px;
+}
+.bg-cl64{
+    background-color: whitesmoke;
+    width: 223.84px;
+    height: 509.22px;
+    border-radius: 20px;
+    position: relative;
+    top: 1060px;
+}
+.bg-cl6{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    left: 120px;
+}
+.img6{
+    position: absolute;
+    top: 3640px;
+    display: flex;
+    justify-content: space-around;
+    width: 77%;
+    margin-left: 145px;
+    align-items: center;
+}
+.text6{
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    align-items: center;
+    position: absolute;
+    top: 3790px;
+    left: 200px;
+    font-size: 13.56px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    width: 78%;
+    align-items: center;
+    position: absolute;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 15.26px;
+    font-weight: 600;
+    top: 3950px;
+    left: 150px;
+}
+.buy61{
+    position: absolute;
+    background-color: black;
+    width: 150.3px;
+    height: 33.45px;
+    border-radius: 15px;
+    top: 4030px;
+    left: 200px;
+}
+.buy62{
+    position: absolute;
+    background-color: black;
+    width: 150.3px;
+    height: 33.45px;
+    border-radius: 15px;
+    top: 4030px;
+    left: 455px;
+}
+.buy63{
+    position: absolute;
+    background-color: black;
+    width: 150.3px;
+    height: 33.45px;
+    border-radius: 15px;
+    top: 4030px;
+    left: 705px;
+}
+.buy64{
+    position: absolute;
+    background-color: black;
+    width: 150.3px;
+    height: 33.45px;
+    border-radius: 15px;
+    top: 4030px;
+    left: 955px;
+}
+.buynow6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 77%;
+    position: absolute;
+    top: 4040px;
+    left: 150px;
+    color: white;
+    font-size: 11.8px;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* seventh page */
+
+.font7{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32.22px;
+    position: absolute;
+    top: 4130px;
+    left: 450px;
+}
+.img-7{
+    position: absolute;
+    top: 4250px;
+    margin-left: 25px;
 }
 
 
