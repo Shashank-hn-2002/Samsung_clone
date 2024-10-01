@@ -5,6 +5,13 @@ body{
 .container{
     display: flex;
     justify-content: space-around;
+    width: 95%;
+    margin:  auto; 
+}
+.first-page{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 24px;
 }
 .nav-bar{
     font-family: Arial, Helvetica, sans-serif;
@@ -165,12 +172,17 @@ body{
 .nav-detail{
     width: 21.3px;
 }
-@media (max-width: 1200px){
+@media (max-width: 1278px){
     .nav-bar{
         display: none;
     }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
-@media (min-width: 1200px){
+@media (min-width: 1278px){
     .nav-detail{
         display: none;
     }
@@ -180,7 +192,7 @@ body{
     background-color: whitesmoke;
     opacity: 0.5;
     margin-top: 16px;
-    width: 1288px;
+    width: 100%;
     height: 572.44px;
 }
 .bg-img1{
@@ -296,6 +308,13 @@ body{
 }
 
 /* second page */
+/* .second-page{
+    background-color: red;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 24px;
+    
+} */
 .font2{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     display: flex;
@@ -345,9 +364,9 @@ body{
 }
 .bg-cl2{
     background-color: whitesmoke;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 650px;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 30px;
     height: 450px;
 }
 .tab{
@@ -413,8 +432,8 @@ body{
     height: 20px;
     border-radius: 10px;
     position: absolute;
-    top: 780px;
-    left: 20px;
+    top: 785px;
+    left: 50px;
 }
 .bg-cltab{
     background-color: whitesmoke;
@@ -458,7 +477,6 @@ body{
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align: center;
     font-weight: bold;
 }
 .fridge{
@@ -511,7 +529,6 @@ body{
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align: center;
     font-weight: bold;
 }
 .tv2{
