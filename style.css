@@ -1,6 +1,13 @@
 .container{
     display: flex;
     justify-content: space-around;
+    width: 95%;
+    margin:  auto; 
+}
+.first-page{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 24px;
 }
 .nav-bar{
     font-family: Arial, Helvetica, sans-serif;
@@ -183,9 +190,12 @@
     background-color: whitesmoke;
     opacity: 0.8;
     margin-top: 16px;
+    width: 100%;
+    height: 572.44px;
     width: 1234px;
     height: 548px;
     margin-left: 25px;
+
 }
 .bg-img1{
     position: absolute;
@@ -312,6 +322,13 @@
 }
 
 /* second page */
+/* .second-page{
+    background-color: red;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 24px;
+    
+} */
 .font2{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
     display: flex;
@@ -361,6 +378,10 @@
 }
 .bg-cl2{
     background-color: whitesmoke;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 30px;
+    height: 450px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 585px;
@@ -434,9 +455,12 @@
     height: 20px;
     border-radius: 10px;
     position: absolute;
+    top: 785px;
+    left: 50px;
     top: 750px;
     left: 20px;
     margin-left: 25px;
+
 }
 .bg-cltab{
     background-color: whitesmoke;
@@ -483,7 +507,6 @@
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align: center;
     font-weight: bold;
     margin-left: 25px;
 }
@@ -540,7 +563,6 @@
     text-align: center;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: medium;
-    text-align: center;
     font-weight: bold;
     margin-left: 25px;
 }
