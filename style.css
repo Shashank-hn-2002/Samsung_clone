@@ -812,7 +812,7 @@
     border-radius: 16px;
     position: absolute;
     top: 2700px;
-    left: 45%;
+    left: 47%;
 }
 .buy4:hover{
     cursor: pointer;
@@ -821,7 +821,7 @@
 .buynow4{
     position: absolute;
     top: 2690px;
-    left: 46%;
+    left: 620px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: 15.8px;
     font-weight: bold;
@@ -924,7 +924,7 @@
     border-radius: 16px;
     position: absolute;
     top: 3385px;
-    left: 45%;
+    left: 47%;
 }
 .buy5:hover{
     cursor: pointer;
@@ -933,7 +933,7 @@
 .buynow5{
     position: absolute;
     top: 3392px;
-    left: 46%;
+    left: 620px;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: 15.8px;
     font-weight: bold;
@@ -1032,7 +1032,7 @@
     height: 33.45px;
     border-radius: 15px;
     top: 4030px;
-    left: 15%;
+    left: 200px;
 }
 .buy62{
     position: absolute;
@@ -1041,7 +1041,7 @@
     height: 33.45px;
     border-radius: 15px;
     top: 4030px;
-    left: 34.5%;
+    left: 455px;
 }
 .buy63{
     position: absolute;
@@ -1050,7 +1050,7 @@
     height: 33.45px;
     border-radius: 15px;
     top: 4030px;
-    left: 54%;
+    left: 705px;
 }
 .buy64{
     position: absolute;
@@ -1059,7 +1059,7 @@
     height: 33.45px;
     border-radius: 15px;
     top: 4030px;
-    left: 73%;
+    left: 955px;
 }
 .buynow6{
     display: flex;
